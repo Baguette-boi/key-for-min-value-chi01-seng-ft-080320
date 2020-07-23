@@ -7,5 +7,6 @@ low_key = nil
 low_value = nil
 
 name_hash.each do |key, value|
-  if low_key == nil || 
+  if low_key == nil || value < low_value
+    
 end
